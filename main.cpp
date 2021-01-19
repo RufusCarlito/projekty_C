@@ -24,5 +24,12 @@ int main() {
 
     return 0;
 }
+<<<<<<< HEAD
 
 krystian
+=======
+s
+xd 
+sgrrsgqejERHAETHJATE
+
+>>>>>>> 3bd6e8a290ecef9520687fcfc06b19108ac3e5a6
