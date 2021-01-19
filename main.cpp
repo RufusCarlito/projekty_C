@@ -1,11 +1,12 @@
 #include <iostream>
 
 using namespace std;
-
+int n = 0;
 int rekurencja(int xn)
 {
 
-    if(xn > 10000) return 0;
+    if(xn == 1) return 0;
+    n++;
 
     int Xnplus1 = 0;
     if(xn%2 != 0){
@@ -20,28 +21,18 @@ int rekurencja(int xn)
 }
 
 int main() {
+    int liczbaTestow = 0, s=0;
+    cout << "Podaj liczbe testow (t):";
+    cin >> liczbaTestow;
 
-    int test = 0, s = 0;
+    for(int i=1 ; i<liczbaTestow; i++){
+        cout << "Podaj parametr (s) od 1 do 10 000:";
+        cin >> s;
+        rekurencja(s);
 
-    rekurencja(1);
-
-    for(int i=1 ; i<5; i++){
-        rekurencja(i);
+        cout << n << endl;
+        n=0;
     }
 
-
-
-//    cin>>test;
-//    for (int i=0; i<=test; i++)
-//    {
-//        cin>>s;
-//        if((s%2==0) || (s==0))
-//        {
-//            cout <<"parzysta" << endl;
-//
-//        }else{
-//            cout <<"nieparzysta" <<endl;
-//        }
-//    }
     return 0;
 }
