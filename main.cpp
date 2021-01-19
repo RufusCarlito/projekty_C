@@ -2,34 +2,37 @@
 
 using namespace std;
 
-
-int test, s;
-int f(int s)
+int rekurencja(int s)
 {
-    if(s==1) return o;
-    else return f(n-1)/2;
+//    if(s==1) return 0;
+//    else return rekurencja(s-1)/2;
+
+    if(s==0) return 0 ;
+
+    cout << s << endl;
+    return rekurencja(s-1);
 }
 
 int main() {
 
-    cin>>test;
-    for (int i=0; i<=test; i++)    {
-        cin>>s;
-        if((s%2==0) || (s==0))
-        {
+    int test = 0, s = 0;
 
-        }else cout <<"nieparzyste" <<endl;
-    }
+    rekurencja(5);
 
 
+
+
+//    cin>>test;
+//    for (int i=0; i<=test; i++)
+//    {
+//        cin>>s;
+//        if((s%2==0) || (s==0))
+//        {
+//            cout <<"parzysta" << endl;
+//
+//        }else{
+//            cout <<"nieparzysta" <<endl;
+//        }
+//    }
     return 0;
 }
-<<<<<<< HEAD
-
-krystian
-=======
-s
-xd 
-sgrrsgqejERHAETHJATE
-
->>>>>>> 3bd6e8a290ecef9520687fcfc06b19108ac3e5a6
