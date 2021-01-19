@@ -2,23 +2,32 @@
 
 using namespace std;
 
-int rekurencja(int s)
+int rekurencja(int xn)
 {
-//    if(s==1) return 0;
-//    else return rekurencja(s-1)/2;
 
-    if(s==0) return 0 ;
+    if(xn > 10000) return 0;
 
-    cout << s << endl;
-    return rekurencja(s-1);
+    int Xnplus1 = 0;
+    if(xn%2 != 0){
+        Xnplus1 = (3 * xn)+1;
+        cout << Xnplus1 << endl;
+        return rekurencja(Xnplus1);
+    }else{
+        Xnplus1 = xn/2;
+        cout << Xnplus1 << endl;
+        return rekurencja(Xnplus1);
+    }
 }
 
 int main() {
 
     int test = 0, s = 0;
 
-    rekurencja(5);
+    rekurencja(1);
 
+    for(int i=1 ; i<5; i++){
+        rekurencja(i);
+    }
 
 
 
