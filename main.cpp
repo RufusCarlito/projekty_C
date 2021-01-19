@@ -10,7 +10,6 @@ int f(int s)
     else return f(n-1)/2;
 }
 
-
 int main() {
 
     cin>>test;
