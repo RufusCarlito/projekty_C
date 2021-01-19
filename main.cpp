@@ -8,14 +8,12 @@ int rekurencja(int xn)
     if(xn == 1) return 0;
     n++;
 
-    int Xnplus1 = 0;
+    int Xnplus1 ;
     if(xn%2 != 0){
         Xnplus1 = (3 * xn)+1;
-        cout << Xnplus1 << endl;
         return rekurencja(Xnplus1);
     }else{
         Xnplus1 = xn/2;
-        cout << Xnplus1 << endl;
         return rekurencja(Xnplus1);
     }
 }
@@ -25,7 +23,7 @@ int main() {
     cout << "Podaj liczbe testow (t):";
     cin >> liczbaTestow;
 
-    for(int i=1 ; i<liczbaTestow; i++){
+    for(int i=0 ; i<liczbaTestow; i++){
         cout << "Podaj parametr (s) od 1 do 10 000:";
         cin >> s;
         rekurencja(s);
