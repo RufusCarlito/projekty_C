@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 int test, s;
 int f(int s)
 {
