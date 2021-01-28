@@ -72,7 +72,8 @@ CMAKE_BINARY_DIR = "E:\C++ CW\testClion\testClion\cmake-build-debug"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/testClion.dir/all
+all: CMakeFiles/Rekurencja.dir/all
+all: CMakeFiles/GraEuklidesa.dir/all
 
 .PHONY : all
 
@@ -82,36 +83,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/testClion.dir/clean
+clean: CMakeFiles/Rekurencja.dir/clean
+clean: CMakeFiles/GraEuklidesa.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/testClion.dir
+# Target rules for target CMakeFiles/Rekurencja.dir
 
 # All Build rule for target.
-CMakeFiles/testClion.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target testClion"
-.PHONY : CMakeFiles/testClion.dir/all
+CMakeFiles/Rekurencja.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target Rekurencja"
+.PHONY : CMakeFiles/Rekurencja.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testClion.dir/rule: cmake_check_build_system
+CMakeFiles/Rekurencja.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testClion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Rekurencja.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/testClion.dir/rule
+.PHONY : CMakeFiles/Rekurencja.dir/rule
 
 # Convenience name for target.
-testClion: CMakeFiles/testClion.dir/rule
+Rekurencja: CMakeFiles/Rekurencja.dir/rule
 
-.PHONY : testClion
+.PHONY : Rekurencja
 
 # clean rule for target.
-CMakeFiles/testClion.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/clean
-.PHONY : CMakeFiles/testClion.dir/clean
+CMakeFiles/Rekurencja.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/clean
+.PHONY : CMakeFiles/Rekurencja.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GraEuklidesa.dir
+
+# All Build rule for target.
+CMakeFiles/GraEuklidesa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target GraEuklidesa"
+.PHONY : CMakeFiles/GraEuklidesa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GraEuklidesa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GraEuklidesa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/GraEuklidesa.dir/rule
+
+# Convenience name for target.
+GraEuklidesa: CMakeFiles/GraEuklidesa.dir/rule
+
+.PHONY : GraEuklidesa
+
+# clean rule for target.
+CMakeFiles/GraEuklidesa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/clean
+.PHONY : CMakeFiles/GraEuklidesa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

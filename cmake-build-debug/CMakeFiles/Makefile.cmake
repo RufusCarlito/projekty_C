@@ -128,5 +128,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/testClion.dir/DependInfo.cmake"
+  "CMakeFiles/Rekurencja.dir/DependInfo.cmake"
+  "CMakeFiles/GraEuklidesa.dir/DependInfo.cmake"
   )

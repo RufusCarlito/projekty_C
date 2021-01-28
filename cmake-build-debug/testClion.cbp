@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="testClion">
-				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/testClion.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Rekurencja">
+				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/Rekurencja.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/C++ CW/testClion/testClion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 testClion"/>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rekurencja"/>
 					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="testClion/fast">
-				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/testClion.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Rekurencja/fast">
+				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/Rekurencja.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/C++ CW/testClion/testClion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,49 @@
 					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 testClion/fast"/>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rekurencja/fast"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GraEuklidesa">
+				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/GraEuklidesa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C++ CW/testClion/testClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 GraEuklidesa"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GraEuklidesa/fast">
+				<Option output="E:/C++ CW/testClion/testClion/cmake-build-debug/GraEuklidesa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C++ CW/testClion/testClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 GraEuklidesa/fast"/>
 					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;E:/C++ CW/testClion/testClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +122,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/C++ CW/testClion/testClion/main.cpp">
-			<Option target="testClion"/>
+		<Unit filename="E:/C++ CW/testClion/testClion/GraEuklidesa.cpp">
+			<Option target="GraEuklidesa"/>
+		</Unit>
+		<Unit filename="E:/C++ CW/testClion/testClion/GraEuklidesa.h">
+			<Option target="GraEuklidesa"/>
+		</Unit>
+		<Unit filename="E:/C++ CW/testClion/testClion/Rekurencja.cpp">
+			<Option target="Rekurencja"/>
+		</Unit>
+		<Unit filename="E:/C++ CW/testClion/testClion/Rekurencja.h">
+			<Option target="Rekurencja"/>
 		</Unit>
 		<Unit filename="E:/C++ CW/testClion/testClion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -130,44 +130,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testClion
+# Target rules for targets named Rekurencja
 
 # Build rule for target.
-testClion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testClion
-.PHONY : testClion
+Rekurencja: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Rekurencja
+.PHONY : Rekurencja
 
 # fast build rule for target.
-testClion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/build
-.PHONY : testClion/fast
+Rekurencja/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/build
+.PHONY : Rekurencja/fast
 
-main.obj: main.cpp.obj
+#=============================================================================
+# Target rules for targets named GraEuklidesa
 
-.PHONY : main.obj
+# Build rule for target.
+GraEuklidesa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GraEuklidesa
+.PHONY : GraEuklidesa
+
+# fast build rule for target.
+GraEuklidesa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/build
+.PHONY : GraEuklidesa/fast
+
+GraEuklidesa.obj: GraEuklidesa.cpp.obj
+
+.PHONY : GraEuklidesa.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+GraEuklidesa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/GraEuklidesa.cpp.obj
+.PHONY : GraEuklidesa.cpp.obj
 
-main.i: main.cpp.i
+GraEuklidesa.i: GraEuklidesa.cpp.i
 
-.PHONY : main.i
+.PHONY : GraEuklidesa.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/main.cpp.i
-.PHONY : main.cpp.i
+GraEuklidesa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/GraEuklidesa.cpp.i
+.PHONY : GraEuklidesa.cpp.i
 
-main.s: main.cpp.s
+GraEuklidesa.s: GraEuklidesa.cpp.s
 
-.PHONY : main.s
+.PHONY : GraEuklidesa.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testClion.dir\build.make CMakeFiles/testClion.dir/main.cpp.s
-.PHONY : main.cpp.s
+GraEuklidesa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/GraEuklidesa.cpp.s
+.PHONY : GraEuklidesa.cpp.s
+
+Rekurencja.obj: Rekurencja.cpp.obj
+
+.PHONY : Rekurencja.obj
+
+# target to build an object file
+Rekurencja.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/Rekurencja.cpp.obj
+.PHONY : Rekurencja.cpp.obj
+
+Rekurencja.i: Rekurencja.cpp.i
+
+.PHONY : Rekurencja.i
+
+# target to preprocess a source file
+Rekurencja.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/Rekurencja.cpp.i
+.PHONY : Rekurencja.cpp.i
+
+Rekurencja.s: Rekurencja.cpp.s
+
+.PHONY : Rekurencja.s
+
+# target to generate assembly for a file
+Rekurencja.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rekurencja.dir\build.make CMakeFiles/Rekurencja.dir/Rekurencja.cpp.s
+.PHONY : Rekurencja.cpp.s
 
 # Help Target
 help:
@@ -177,10 +217,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... testClion
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... GraEuklidesa
+	@echo ... Rekurencja
+	@echo ... GraEuklidesa.obj
+	@echo ... GraEuklidesa.i
+	@echo ... GraEuklidesa.s
+	@echo ... Rekurencja.obj
+	@echo ... Rekurencja.i
+	@echo ... Rekurencja.s
 .PHONY : help
 
 
