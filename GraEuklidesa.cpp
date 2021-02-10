@@ -11,10 +11,8 @@ int GraEuklidesa(int graczA , int graczB){
     for (;;) {
 
         if (aktualneKontoKrzyska > aktualneKontoKrystiana) {
-            // aktualneKontoKrzysika -= aktualneKontoKrystiana;
             aktualneKontoKrzyska = aktualneKontoKrzyska - aktualneKontoKrystiana;
         } else if (aktualneKontoKrzyska < aktualneKontoKrystiana) {
-            // aktualneKontoKrystiana -= aktualneKontoKrzysika;
             aktualneKontoKrystiana = aktualneKontoKrystiana - aktualneKontoKrzyska;
         } else {
             break;
@@ -22,7 +20,7 @@ int GraEuklidesa(int graczA , int graczB){
     }
     //cout << "Konto krzyska: " << aktualneKontoKrzyska << endl;
     //cout << "Konto krystiana: " << aktualneKontoKrystiana << endl;
-    cout <<"Suma: " << aktualneKontoKrystiana + aktualneKontoKrzyska << endl;
+    cout  << aktualneKontoKrystiana + aktualneKontoKrzyska << endl;
 
 
     return 0;
@@ -37,40 +35,27 @@ int main() {
 
 
     int liczbaPartii = 0;
-    cout << "Wpisz liczbe Partii : ";
-    cin >> liczbaPartii; //5
-    int zetony[liczbaPartii * 2];
-    // {11,23,43,13,12,32,12,33,42,12}
-    // { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+    cout << "Wpisz liczbe Partii : " << endl;
+    cin >> liczbaPartii; //3
+    int zetony_GraczaA[liczbaPartii];
+    int zetony_GraczaB[liczbaPartii];
 
-    int zetonyGraczA = 0, zetonyGraczB = 0;
-    for(int i=0 ; i<liczbaPartii * 2 ; ) {
-        cout << "Podaj ilosc zetonow gracza A: ";
-        cin >> zetonyGraczA;
-        cout << "Podaj ilosc zetonow gracza B: ";
-        cin >> zetonyGraczB;
+    for(int i=0 ; i<liczbaPartii  ;i++ ) {
+        cout << "Podaj ilosc zetonow gracza A: " << endl;
+        cin >> zetony_GraczaA[i];
 
-        zetony[i] = zetonyGraczA;
-        zetony[++i] = zetonyGraczB;
-        i++;
+        cout << "Podaj ilosc zetonow gracza B: " << endl;
+        cin >> zetony_GraczaB[i];
+
     }
-
 
     // i++ post-inkrementacja
     // ++i pre-inkrementacja
+    cout << "Wynik: " << endl;
+    for(int i=0; i<liczbaPartii; i++)
+        GraEuklidesa(zetony_GraczaA[i],zetony_GraczaB[i]);
 
-    while (liczbaPartii > 0) {
-        // {11,23,43,13,12,32,12,33,42,12}
-        // { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-        int index = liczbaPartii * 2;
-        int graczA = zetony[index];
-        int graczB = zetony[index+1];
 
-        GraEuklidesa(graczA, graczB);
-        liczbaPartii--;
-    }
-
-    int a =9;
 
     return 0;
 }
