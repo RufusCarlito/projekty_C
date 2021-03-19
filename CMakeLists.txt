@@ -4,3 +4,4 @@ project(testClion)
 
 add_executable(Rekurencja Rekurencja.cpp)
 add_executable(GraEuklidesa GraEuklidesa.cpp)
+add_executable(Biblioteka Biblioteka.cpp)

@@ -28,3 +28,9 @@ int main() {
 
     return 0;
 }
+
+
+int testRekurancja(void){
+   cout << "rekurencja\n";
+   return 0;
+}

@@ -1,4 +1,5 @@
-E:/C++ CW/testClion/testClion/cmake-build-debug/CMakeFiles/Rekurencja.dir
-E:/C++ CW/testClion/testClion/cmake-build-debug/CMakeFiles/GraEuklidesa.dir
-E:/C++ CW/testClion/testClion/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/C++ CW/testClion/testClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/cmake-build-debug/CMakeFiles/Rekurencja.dir
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/cmake-build-debug/CMakeFiles/GraEuklidesa.dir
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/cmake-build-debug/CMakeFiles/Biblioteka.dir
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

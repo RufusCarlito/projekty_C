@@ -130,4 +130,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Rekurencja.dir/DependInfo.cmake"
   "CMakeFiles/GraEuklidesa.dir/DependInfo.cmake"
+  "CMakeFiles/Biblioteka.dir/DependInfo.cmake"
   )

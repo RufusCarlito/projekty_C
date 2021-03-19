@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\C++ CW\testClion\testClion"
+CMAKE_SOURCE_DIR = C:\Users\kryst\OneDrive\Pulpit\projekty\testClion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\C++ CW\testClion\testClion\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\kryst\OneDrive\Pulpit\projekty\testClion\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kryst\OneDrive\Pulpit\projekty\testClion\cmake-build-debug\CMakeFiles C:\Users\kryst\OneDrive\Pulpit\projekty\testClion\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\C++ CW\testClion\testClion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kryst\OneDrive\Pulpit\projekty\testClion\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,6 +154,46 @@ GraEuklidesa: cmake_check_build_system
 GraEuklidesa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraEuklidesa.dir\build.make CMakeFiles/GraEuklidesa.dir/build
 .PHONY : GraEuklidesa/fast
+
+#=============================================================================
+# Target rules for targets named Biblioteka
+
+# Build rule for target.
+Biblioteka: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Biblioteka
+.PHONY : Biblioteka
+
+# fast build rule for target.
+Biblioteka/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biblioteka.dir\build.make CMakeFiles/Biblioteka.dir/build
+.PHONY : Biblioteka/fast
+
+Biblioteka.obj: Biblioteka.cpp.obj
+
+.PHONY : Biblioteka.obj
+
+# target to build an object file
+Biblioteka.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biblioteka.dir\build.make CMakeFiles/Biblioteka.dir/Biblioteka.cpp.obj
+.PHONY : Biblioteka.cpp.obj
+
+Biblioteka.i: Biblioteka.cpp.i
+
+.PHONY : Biblioteka.i
+
+# target to preprocess a source file
+Biblioteka.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biblioteka.dir\build.make CMakeFiles/Biblioteka.dir/Biblioteka.cpp.i
+.PHONY : Biblioteka.cpp.i
+
+Biblioteka.s: Biblioteka.cpp.s
+
+.PHONY : Biblioteka.s
+
+# target to generate assembly for a file
+Biblioteka.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biblioteka.dir\build.make CMakeFiles/Biblioteka.dir/Biblioteka.cpp.s
+.PHONY : Biblioteka.cpp.s
 
 GraEuklidesa.obj: GraEuklidesa.cpp.obj
 
@@ -217,8 +257,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Biblioteka
 	@echo ... GraEuklidesa
 	@echo ... Rekurencja
+	@echo ... Biblioteka.obj
+	@echo ... Biblioteka.i
+	@echo ... Biblioteka.s
 	@echo ... GraEuklidesa.obj
 	@echo ... GraEuklidesa.i
 	@echo ... GraEuklidesa.s
