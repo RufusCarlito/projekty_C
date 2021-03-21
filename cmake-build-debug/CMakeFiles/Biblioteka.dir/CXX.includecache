@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/Biblioteka.cpp
+Biblioteka.h
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/Biblioteka.h
+
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/Biblioteka.h
+string.h
+-
+cstring
+-
+cstdio
+-
+string
+-
+iostream
+-
+Rekurencja.h
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/Rekurencja.h
+
+C:/Users/kryst/OneDrive/Pulpit/projekty/testClion/Rekurencja.h
+iostream
+-
+
